@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.canvas h1{
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    gap: 3px;
+    
+}
+.button #btn1{
+    padding: 10px;
+}
+.button #btn2{
+    padding: 10px;
+}
+.button #btn3{
+    padding: 10px;
+}
+.button #btn4{
+    padding: 10px;
+}
+
+#btn1{
+    background-color:#212121;
+    color: azure;
+}
+#btn2{
+    background-color: #fff;
+
+}
+#btn3{
+    background-color: #4a0dda;
+    color: azure;
+}
+#btn4{
+    background-color: #bae10e;
+    color: azure;
+}
+.classs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
